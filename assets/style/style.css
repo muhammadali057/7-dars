@@ -1,0 +1,139 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.box1 {
+  display: grid;
+  background-image: url(../images/img1.jpg);
+  grid-area: box1;
+  background-size: cover;
+}
+
+.box2 {
+  display: grid;
+  background-image: url(../images/img2.jpg);
+  grid-area: box2;
+  background-size: cover;
+}
+
+.box3 {
+  display: grid;
+  background-image: url(../images/img3.jpg);
+  grid-area: box3;
+  background-size: cover;
+}
+
+.box4 {
+  display: grid;
+  background-image: url(../images/img4.jpg);
+  grid-area: box4;
+  background-size: cover;
+}
+
+.card1 {
+  display: grid;
+  grid-template-areas: "box1 box1" "box1 box1" "box2 box2" "box3 box4";
+  grid-area: card1;
+  grid-gap: 10px;
+}
+
+.box5 {
+  display: grid;
+  background-image: url(../images/img5.jpg);
+  grid-area: box5;
+  background-size: cover;
+}
+
+.box6 {
+  display: grid;
+  background-image: url(../images/img7.jpg);
+  grid-area: box6;
+  background-size: cover;
+}
+
+.card2 {
+  display: grid;
+  grid-template-areas: "box5" "box5" "box6" "box6";
+  grid-area: card2;
+  grid-gap: 10px;
+}
+
+.box7 {
+  display: grid;
+  background-image: url(../images/img8.jpg);
+  grid-area: box7;
+  background-size: cover;
+}
+
+.box8 {
+  display: grid;
+  background-image: url(../images/img9.jpg);
+  grid-area: box8;
+  background-size: cover;
+}
+
+.box9 {
+  display: grid;
+  background-image: url(../images/img9.jpg);
+  grid-area: box9;
+  background-size: cover;
+}
+
+.card3 {
+  display: grid;
+  grid-template-areas: "box7" "box8" "box8" "box9";
+  grid-area: card3;
+  grid-gap: 10px;
+}
+
+.box10 {
+  display: grid;
+  background-image: url(../images/img10.jpg);
+  grid-area: box10;
+  background-size: cover;
+}
+
+.box11 {
+  display: grid;
+  background-image: url(../images/img11.jpg);
+  grid-area: box11;
+  background-size: cover;
+}
+
+.box12 {
+  display: grid;
+  background-image: url(../images/img12.jpg);
+  grid-area: box12;
+  background-size: cover;
+}
+
+.box13 {
+  display: grid;
+  background-image: url(../images/img13.jpeg);
+  grid-area: box13;
+  background-size: cover;
+}
+
+.card4 {
+  display: grid;
+  grid-template-areas: "box10 box10" "box11 box12" "box13 box13" "box13 box13";
+  grid-area: card4;
+  grid-gap: 10px;
+}
+
+.container {
+  width: 1500px;
+  height: 700px;
+  display: grid;
+  grid-template-areas: "card1 card1 card2 card3 card4 card4 card4";
+  grid-gap: 10px;
+}/*# sourceMappingURL=style.css.map */
